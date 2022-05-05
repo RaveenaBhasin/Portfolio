@@ -34,6 +34,7 @@ const ProjectContainer = styled.div`
 
 const H2 = styled.h2`
     font-weight: 900;
+    font-size: 2.5rem;
     color: whitesmoke;
     text-align: center;
     margin-bottom: 2em;
