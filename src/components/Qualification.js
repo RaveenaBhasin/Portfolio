@@ -184,7 +184,7 @@ const Qualification = () => {
                     <div class="timeline-block timeline-block-right">
                         <div class="marker active"><i class="fa fa-check active" aria-hidden="true"></i></div>
                         <div class="timeline-content">
-                        <HI>Generation Google Scholar'22</HI><p>Among Top 55 scholars in the Asia-Pacific region, out of a pool of 14,078 applicants and received a scholarship of $2500.<br/>Awarded on the basis of academic performance, excellence in tech, leadership and impact on the community.</p>
+                        <HI>Generation Google Scholar'22</HI><p>Among Top 55 scholars in the Asia-Pacific region, out of a pool of 14,078 applicants and received a scholarship of $1000.<br/>Awarded on the basis of academic performance, excellence in tech, leadership and impact on the community.</p>
                         </div>
                     </div>
                     <div class="timeline-block timeline-block-right">
