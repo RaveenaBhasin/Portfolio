@@ -69,14 +69,6 @@ const NavbarPages = () => {
                             animate={{ width: pathname === '/contact' ? '70%' : "0" }}
                             /> 
                 </li>
-                {/* <li>
-                    <Link to={{pathname:"https://aegli.hashnode.dev/"}} 
-                        activeStyle={activeStyle}
-                        target={"_blank"} 
-                        rel="noopener noreferrer">
-                        Blog
-                    </Link>
-                </li> */}
                 <BsBoxArrowInUpRight className='icon'/>
             </ul>
         </NavContainer>
@@ -105,7 +97,7 @@ const NavContainer = styled.nav`
         font-weight: 700;
         color: whitesmoke;
         text-decoration: none;
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
     ul {
         display: flex;
