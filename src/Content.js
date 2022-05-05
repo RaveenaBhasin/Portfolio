@@ -37,7 +37,7 @@ const contentCard = [
         title: 'MakesMathEasy',
         body: "Contributed in a web-app which aims at providing solutions to various Math problems along with steps. Made 100+ Successfully merged Pull Requests.",
         image: mme,
-        tech: `Technology used : HTML CSS JAVASCRIPT JQUERY BOOTSTRAP LATEX`,
+        tech: `Technology used - HTML CSS JAVASCRIPT JQUERY BOOTSTRAP LATEX`,
         linkgithub:'https://github.com/makesmatheasy/makesmatheasy',
         linkdemo: 'https://makesmatheasy.github.io/makesmatheasy/'
         },
