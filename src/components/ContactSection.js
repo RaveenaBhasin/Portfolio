@@ -20,6 +20,7 @@ const H2 = styled.h2 `
     margin-top: 10rem;
     margin-bottom: 2rem;
     font-weight: 900;
+    font-size: 2.5rem;
     color: whitesmoke;
     
 @media (max-width: 768px){
