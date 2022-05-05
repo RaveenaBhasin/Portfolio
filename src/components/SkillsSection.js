@@ -28,7 +28,7 @@ const SkillsSection = () => {
             <DivWrapper 
                 id="skills" 
                 >
-                <Text>Tech & tools</Text>
+                <Text>Tech & Tools</Text>
                     <Icons data-aos="zoom-in">
                         <img src={cpp} alt="C++" title ='C++'/>
                         <img src={python} slt="python" title = 'Python'/>
@@ -66,7 +66,7 @@ const DivWrapper = styled.div `
 `
 const Text = styled.h2`
     margin-bottom: 15vh; 
-    /* font-size: 5rem; */
+    font-size: 2.5rem;
     font-weight: 900;
     color: whitesmoke;
     text-align: center;
@@ -82,7 +82,7 @@ const Text = styled.h2`
 `
 
 const Icons = styled.div`
-    height: 7vw;
+    height: 5vw;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-gap: 1em; 
@@ -91,7 +91,7 @@ const Icons = styled.div`
     align-items: center;
     img {
         margin-top: 1vh;
-        width: 5rem;
+        width: 4rem;
     }
         
 @media (max-width: 768px){
