@@ -43,7 +43,7 @@ const CardContainer = styled.div`
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
-    max-width: 960px;
+    max-width: 930px;
     background-color: rgba(255, 255, 255, 0.972);
     box-shadow: 1px 3px 32px -7px black;
     border-radius:10px;
@@ -72,17 +72,20 @@ const CardContent = styled.div`
     h3 {
         margin: 1rem;
         padding: 1rem;
-        font-size: 2rem;
+        font-size: 1.5rem;
         color: #3d3f42;
+        @media (max-width: 480px){
+            font-size: 1rem;
+        }
     }
     p {
         margin: 1rem;
         padding: 1rem;
-        font-size: 1.2rem;
+        font-size: 1rem;
         font-weight: 400;
         color: #343a40;
         @media (max-width: 768px){
-            font-size: 1.8rem;
+            font-size: 1.4rem;
         }
         @media (max-width: 480px){
             font-size: 1rem;
