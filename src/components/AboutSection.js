@@ -19,11 +19,11 @@ const AboutSection = () => {
                         <div className = "title">
                         <BigText >
                         <HI data-aos="fade-right">Hello!</HI>
-                            <h2 data-aos="fade-right" data-aos-delay="100"> My name is <StyledA data-aos="fade-right" data-aos-delay="100">Raveena Bhasin</StyledA>
-                            </h2>
+                            <HP data-aos="fade-right" data-aos-delay="100"> My name is <StyledA data-aos="fade-right" data-aos-delay="100">Raveena Bhasin</StyledA>
+                            </HP>
                         </BigText>
                         <BigText data-aos="fade-right" data-aos-delay="300">
-                            <h2 ><span>and I'm a</span></h2>
+                            <HP ><span>and I'm a</span></HP>
                         </BigText>
                         <BigText data-aos="fade-right" data-aos-delay="500">
                             <H2><span className="text-slider"><Typed strings={['Front End Developer', 'Open Source Contributor', 'MERN Stack Developer']} typeSpeed = {80} backDelay = {1100} backSpeed = {35} loop/></span></H2>
@@ -50,7 +50,7 @@ const AboutSection = () => {
 };
 
 const StyledAbout = styled.div`
-    height: 95vh;
+    height: 100vh;
     margin-top: 5vh;
     display: flex;
     align-items: center;
@@ -76,13 +76,20 @@ const StyledAbout = styled.div`
 `
 const HI = styled.h2 `
     font-weight: 900;
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     color: #3DC9A7; 
+    font-family: 'Lato', sans-serif;
+`
+
+const HP = styled.h2`
+    font-weight: 900;
+    font-size: 2.5rem;
     font-family: 'Lato', sans-serif;
 `
 const P = styled.p`
     margin-top: 1.5rem;
     font-weight: 300;
+    font-size: 1.2rem;
     padding-right: 8rem;
     font-family: 'Montserrat', sans-serif;
 @media (max-width: 768px){
@@ -97,6 +104,7 @@ const H2 = styled.h2`
     font-weight: 900;
     color: #3DC9A7;
     font-family: 'Lato', sans-serif;
+    font-size: 2.5rem;
 `
 const StyledA = styled.a `
     color: #3DC9A7;
